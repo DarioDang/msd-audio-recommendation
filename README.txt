@@ -1,22 +1,35 @@
-In order to make it easy to read the report and follow the code material, I have divided each part into several jupyter notebooks. 
-This README file helps reader know each part of the report align with each notebook. 
+# 🎵 MSD Audio Recommendation
 
-I. Processing Part 
-This parts contain 2 jupyter notebooks stored in Processing_Notebook folder
+This repository focused on building predictive models using the [Million Song Dataset (MSD)](http://millionsongdataset.com/). The objective was to analyze audio features and apply machine learning techniques for **genre classification** and **recommendation tasks**.
 
-1. Assignment02_Processing_Q1: This notebook answer question 01.
-2. Assignment02_Processing_Q2: This notebook answer question 02. 
+## 📁 Project Structure
 
-II. Audio Similarity
-This part contain 1 jupyter notebooks stored in Audio_Similarity folder that answer 3 questions in the Audio Similarity part.
 
-1. Assignment02_Audio_Similarity.ipynb
+## 🧠 Task Overview
 
-III. Collaborate Filtering (Recommendation)
-This parts contain 1 jupyter notebook stored in Reccommendation folder. This notebook work on Part 3 which generate the song reccomendatin system.
+- Clean and explore MSD audio features
+- Train classification models to predict song genres
+- Compare performance of logistic regression, decision trees, and random forests
+- Evaluate using accuracy, F1-score, and confusion matrix
+- Bonus: Implement a genre-based recommendation function
 
-1. Assignment02_Reccommendation.ipynb  
+## ⚙️ Technologies Used
 
-IV. Extra Notebook
-This notebook only run the Logistic Regression using Lasso to compare with original model. 
-1. Assignment02_Audio_Similarity_Regularization.ipynb
+- Python 3.10+
+- `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
+- `jupyter` for exploratory analysis
+
+## 📊 Key Results
+
+- Best model: **Random Forest**
+- Achieved ~X% accuracy and F1-score on the test set
+- Genre confusion observed between pop and rock
+
+> For detailed analysis, see [`notebooks/03_evaluation.ipynb`](notebooks/03_evaluation.ipynb)
+
+## 🚀 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/msd-audio-recommendation.git
+   cd msd-audio-recommendation
