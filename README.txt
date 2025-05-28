@@ -19,14 +19,6 @@ This repository focused on building predictive models using the [Million Song Da
 - `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
 - `jupyter` for exploratory analysis
 
-## 📊 Key Results
-
-- Best model: **Random Forest**
-- Achieved ~X% accuracy and F1-score on the test set
-- Genre confusion observed between pop and rock
-
-> For detailed analysis, see [`notebooks/03_evaluation.ipynb`](notebooks/03_evaluation.ipynb)
-
 ## 🚀 How to Run
 
 1. Clone this repository  
